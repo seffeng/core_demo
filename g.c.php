@@ -11,7 +11,7 @@
 define('SYSTEM',            'DEMO');
 define('SYSTEM_VERSION',    '1.0');
 define('SYSTEM_ROOT',       preg_replace_callback('/[\/\\\\]+/', function($match){return '/';}, dirname(__FILE__)).'/');
-define('SYSTEM_CORE',       dirname(SYSTEM_ROOT).'/0/');
+define('SYSTEM_CORE',       dirname(SYSTEM_ROOT).'/core/');
 define('SYSTEM_ASSET',      SYSTEM_ROOT.'asset/');
 define('SYSTEM_DATA',       SYSTEM_ROOT.'data/');
 define('SYSTEM_INC',        SYSTEM_ROOT.'inc/');
